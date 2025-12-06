@@ -1,0 +1,4585 @@
+{
+  "presetSchemaVersion": 1,
+  "presetConfigurationVersion": 3,
+  "platforms": [
+    {
+      "key": "and",
+      "shortName": "AND",
+      "name": "Android",
+      "supportedFiles": [],
+      "scraperPlatformId": {
+        "igdb": "34",
+        "rawg": "21",
+        "tgdb": "4916"
+      }
+    },
+    {
+      "key": "3do",
+      "shortName": "3DO",
+      "name": "3DO Interactive Multiplayer",
+      "supportedFiles": [
+        {
+          "type": "bin"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "zip"
+        }
+      ]
+    },
+    {
+      "key": "cda",
+      "shortName": "CDA",
+      "name": "Commodore Amiga",
+      "supportedFiles": [
+        {
+          "type": "adf"
+        },
+        {
+          "type": "adz"
+        },
+        {
+          "type": "dms"
+        },
+        {
+          "type": "fdi"
+        },
+        {
+          "type": "ipf"
+        },
+        {
+          "type": "hdf"
+        },
+        {
+          "type": "hdz"
+        },
+        {
+          "type": "lha"
+        },
+        {
+          "type": "slave"
+        },
+        {
+          "type": "info"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "ccd"
+        },
+        {
+          "type": "nrg"
+        },
+        {
+          "type": "mds"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "uae"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "rp9"
+        }
+      ]
+    },
+    {
+      "key": "cd1",
+      "shortName": "1200",
+      "name": "Commodore Amiga 1200",
+      "supportedFiles": [
+        {
+          "type": "adf"
+        },
+        {
+          "type": "adz"
+        },
+        {
+          "type": "dms"
+        },
+        {
+          "type": "fdi"
+        },
+        {
+          "type": "ipf"
+        },
+        {
+          "type": "hdf"
+        },
+        {
+          "type": "hdz"
+        },
+        {
+          "type": "lha"
+        },
+        {
+          "type": "slave"
+        },
+        {
+          "type": "info"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "ccd"
+        },
+        {
+          "type": "nrg"
+        },
+        {
+          "type": "mds"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "uae"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "rp9"
+        }
+      ]
+    },
+    {
+      "key": "cd6",
+      "shortName": "600",
+      "name": "Commodore Amiga 600",
+      "supportedFiles": [
+        {
+          "type": "adf"
+        },
+        {
+          "type": "adz"
+        },
+        {
+          "type": "dms"
+        },
+        {
+          "type": "fdi"
+        },
+        {
+          "type": "ipf"
+        },
+        {
+          "type": "hdf"
+        },
+        {
+          "type": "hdz"
+        },
+        {
+          "type": "lha"
+        },
+        {
+          "type": "slave"
+        },
+        {
+          "type": "info"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "ccd"
+        },
+        {
+          "type": "nrg"
+        },
+        {
+          "type": "mds"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "uae"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "rp9"
+        }
+      ]
+    },
+    {
+      "key": "cd32",
+      "shortName": "CD32",
+      "name": "Commodore Amiga CD32",
+      "supportedFiles": [
+        {
+          "type": "adf"
+        },
+        {
+          "type": "adz"
+        },
+        {
+          "type": "dms"
+        },
+        {
+          "type": "fdi"
+        },
+        {
+          "type": "ipf"
+        },
+        {
+          "type": "hdf"
+        },
+        {
+          "type": "hdz"
+        },
+        {
+          "type": "lha"
+        },
+        {
+          "type": "slave"
+        },
+        {
+          "type": "info"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "ccd"
+        },
+        {
+          "type": "nrg"
+        },
+        {
+          "type": "mds"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "uae"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "rp9"
+        }
+      ]
+    },
+    {
+      "key": "cpc",
+      "shortName": "CPC",
+      "name": "Amstrad CPC (Schneider CPC)",
+      "supportedFiles": [
+        {
+          "type": "cdt"
+        },
+        {
+          "type": "cpr"
+        },
+        {
+          "type": "dsk"
+        },
+        {
+          "type": "kcr"
+        },
+        {
+          "type": "sna"
+        },
+        {
+          "type": "tap"
+        },
+        {
+          "type": "voc"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        }
+      ]
+    },
+    {
+      "key": "arc",
+      "shortName": "ARC",
+      "name": "Arcade",
+      "supportedFiles": [
+        {
+          "type": "cmd"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "dmy"
+        },
+        {
+          "type": "neo"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        }
+      ]
+    },
+    {
+      "key": "ard",
+      "shortName": "ARD",
+      "name": "Arduboy",
+      "supportedFiles": [
+        {
+          "type": "hex"
+        },
+        {
+          "type": "arduboy"
+        }
+      ]
+    },
+    {
+      "key": "a26",
+      "shortName": "A26",
+      "name": "Atari 2600",
+      "supportedFiles": [
+        {
+          "type": "a26"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        }
+      ]
+    },
+    {
+      "key": "a52",
+      "shortName": "A52",
+      "name": "Atari 5200",
+      "supportedFiles": [
+        {
+          "type": "a52"
+        },
+        {
+          "type": "atr"
+        },
+        {
+          "type": "atx"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "car"
+        },
+        {
+          "type": "cas"
+        },
+        {
+          "type": "cdm"
+        },
+        {
+          "type": "com"
+        },
+        {
+          "type": "rom"
+        },
+        {
+          "type": "xex"
+        },
+        {
+          "type": "xfd"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "zip"
+        }
+      ]
+    },
+    {
+      "key": "a78",
+      "shortName": "A78",
+      "name": "Atari 7800",
+      "supportedFiles": [
+        {
+          "type": "a78"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        }
+      ]
+    },
+    {
+      "key": "jag",
+      "shortName": "JAG",
+      "name": "Atari Jaguar",
+      "supportedFiles": [
+        {
+          "type": "j64"
+        },
+        {
+          "type": "jag"
+        },
+        {
+          "type": "rom"
+        },
+        {
+          "type": "abs"
+        },
+        {
+          "type": "cof"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "prg"
+        }
+      ]
+    },
+    {
+      "key": "lynx",
+      "shortName": "LYNX",
+      "name": "Atari Lynx",
+      "supportedFiles": [
+        {
+          "type": "lnx"
+        },
+        {
+          "type": "lyx"
+        },
+        {
+          "type": "o"
+        }
+      ]
+    },
+    {
+      "key": "ast",
+      "shortName": "AST",
+      "name": "Atari ST",
+      "supportedFiles": [
+        {
+          "type": "st"
+        },
+        {
+          "type": "msa"
+        },
+        {
+          "type": "stx"
+        },
+        {
+          "type": "dim"
+        },
+        {
+          "type": "stx"
+        },
+        {
+          "type": "ipf"
+        },
+        {
+          "type": "zip"
+        }
+      ]
+    },
+    {
+      "key": "c64",
+      "shortName": "C64",
+      "name": "Commodore 64",
+      "supportedFiles": [
+        {
+          "type": "d64"
+        },
+        {
+          "type": "d6z"
+        },
+        {
+          "type": "d71"
+        },
+        {
+          "type": "d7z"
+        },
+        {
+          "type": "d80"
+        },
+        {
+          "type": "d81"
+        },
+        {
+          "type": "d82"
+        },
+        {
+          "type": "d8z"
+        },
+        {
+          "type": "g64"
+        },
+        {
+          "type": "g6z"
+        },
+        {
+          "type": "g41"
+        },
+        {
+          "type": "g4z"
+        },
+        {
+          "type": "x64"
+        },
+        {
+          "type": "x6z"
+        },
+        {
+          "type": "nib"
+        },
+        {
+          "type": "nbz"
+        },
+        {
+          "type": "d2m"
+        },
+        {
+          "type": "d4m"
+        },
+        {
+          "type": "t64"
+        },
+        {
+          "type": "tap"
+        },
+        {
+          "type": "tcrt"
+        },
+        {
+          "type": "prg"
+        },
+        {
+          "type": "p00"
+        },
+        {
+          "type": "crt"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "cmd"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "vfl"
+        },
+        {
+          "type": "vsf"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "gz"
+        },
+        {
+          "type": "20"
+        },
+        {
+          "type": "40"
+        },
+        {
+          "type": "60"
+        },
+        {
+          "type": "a0"
+        },
+        {
+          "type": "b0"
+        },
+        {
+          "type": "rom"
+        }
+      ]
+    },
+    {
+      "key": "cps",
+      "shortName": "CPS",
+      "name": "Capcom Play System",
+      "supportedFiles": [
+        {
+          "type": "7z"
+        },
+        {
+          "type": "zip"
+        }
+      ]
+    },
+    {
+      "key": "dos",
+      "shortName": "DOS",
+      "name": "Disk Operating System (DOS)",
+      "supportedFiles": [
+        {
+          "type": "bat"
+        },
+        {
+          "type": "com"
+        },
+        {
+          "type": "conf"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "dosz"
+        },
+        {
+          "type": "exe"
+        },
+        {
+          "type": "img"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "ima"
+        },
+        {
+          "type": "img"
+        },
+        {
+          "type": "ins"
+        },
+        {
+          "type": "vhd"
+        },
+        {
+          "type": "jrc"
+        },
+        {
+          "type": "tc"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "m3u8"
+        },
+        {
+          "type": "ini"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "6",
+        "rawg": "4",
+        "tgdb": "1"
+      }
+    },
+    {
+      "key": "sdc",
+      "shortName": "SDC",
+      "name": "Sega Dreamcast",
+      "supportedFiles": [
+        {
+          "type": "cdi"
+        },
+        {
+          "type": "gdi"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "elf"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "lst"
+        },
+        {
+          "type": "dat"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "vms"
+        },
+        {
+          "type": "dci"
+        }
+      ]
+    },
+    {
+      "key": "nes",
+      "shortName": "NES",
+      "name": "Nintendo Entertainment System (NES/Famicom)",
+      "supportedFiles": [
+        {
+          "type": "nes"
+        },
+        {
+          "type": "fds"
+        },
+        {
+          "type": "unif"
+        },
+        {
+          "type": "unf"
+        }
+      ]
+    },
+    {
+      "key": "neo",
+      "shortName": "NEO",
+      "name": "SNK Neo Geo",
+      "supportedFiles": [
+        {
+          "type": "neo"
+        }
+      ]
+    },
+    {
+      "key": "sgg",
+      "shortName": "SGG",
+      "name": "Sega Game Gear",
+      "supportedFiles": [
+        {
+          "type": "sms"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "rom"
+        },
+        {
+          "type": "gg"
+        },
+        {
+          "type": "col"
+        },
+        {
+          "type": "sg"
+        },
+        {
+          "type": "mv"
+        }
+      ]
+    },
+    {
+      "key": "sms",
+      "shortName": "SMS",
+      "name": "Sega Master System (Mark III)",
+      "supportedFiles": [
+        {
+          "type": "sms"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "rom"
+        }
+      ]
+    },
+    {
+      "key": "gen",
+      "shortName": "SMD",
+      "name": "Sega Mega Drive (Genesis)",
+      "supportedFiles": [
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "mdx"
+        },
+        {
+          "type": "md"
+        },
+        {
+          "type": "smd"
+        },
+        {
+          "type": "gen"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "bms"
+        }
+      ]
+    },
+    {
+      "key": "sat",
+      "shortName": "SAT",
+      "name": "Sega Saturn",
+      "supportedFiles": [
+        {
+          "type": "cue"
+        },
+        {
+          "type": "toc"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "ccd"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "mds"
+        },
+        {
+          "type": "zip"
+        }
+      ]
+    },
+    {
+      "key": "gb",
+      "shortName": "GB",
+      "name": "Nintendo Game Boy",
+      "supportedFiles": [
+        {
+          "type": "bs"
+        },
+        {
+          "type": "cgb"
+        },
+        {
+          "type": "dmg"
+        },
+        {
+          "type": "gb"
+        },
+        {
+          "type": "gbc"
+        },
+        {
+          "type": "sgb"
+        },
+        {
+          "type": "sfc"
+        },
+        {
+          "type": "smc"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "zip"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "33",
+        "rawg": "26",
+        "tgdb": "4"
+      }
+    },
+    {
+      "key": "gba",
+      "shortName": "GBA",
+      "name": "Nintendo Game Boy Advance",
+      "supportedFiles": [
+        {
+          "type": "agb"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "cgb"
+        },
+        {
+          "type": "dmg"
+        },
+        {
+          "type": "gb"
+        },
+        {
+          "type": "gba"
+        },
+        {
+          "type": "gbz"
+        },
+        {
+          "type": "gbc"
+        },
+        {
+          "type": "sgb"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "zip"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "24",
+        "rawg": "24",
+        "tgdb": "5"
+      }
+    },
+    {
+      "key": "nds",
+      "shortName": "NDS",
+      "name": "Nintendo DS",
+      "supportedFiles": [
+        {
+          "type": "dsi"
+        },
+        {
+          "type": "nds"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "20",
+        "rawg": "9",
+        "tgdb": "8"
+      }
+    },
+    {
+      "key": "3ds",
+      "shortName": "3DS",
+      "name": "Nintendo 3DS",
+      "supportedFiles": [
+        {
+          "type": "3ds"
+        },
+        {
+          "type": "3dsx"
+        },
+        {
+          "type": "app"
+        },
+        {
+          "type": "axf"
+        },
+        {
+          "type": "cci"
+        },
+        {
+          "type": "cxi"
+        },
+        {
+          "type": "elf"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "37",
+        "rawg": "8",
+        "tgdb": "4912"
+      }
+    },
+    {
+      "key": "psx",
+      "shortName": "PSX",
+      "name": "Sony PlayStation",
+      "supportedFiles": [
+        {
+          "type": "bin"
+        },
+        {
+          "type": "cbn"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "img"
+        },
+        {
+          "type": "ecm"
+        },
+        {
+          "type": "mdf"
+        },
+        {
+          "type": "pbp",
+          "nonDescriptiveNames": [
+            "eboot",
+            "param"
+          ]
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "7",
+        "rawg": "27",
+        "tgdb": "10"
+      }
+    },
+    {
+      "key": "ps2",
+      "shortName": "PS2",
+      "name": "Sony PlayStation 2",
+      "supportedFiles": [
+        {
+          "type": "bin"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "ciso"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "cso"
+        },
+        {
+          "type": "elf"
+        },
+        {
+          "type": "img"
+        },
+        {
+          "type": "mdf"
+        },
+        {
+          "type": "isz"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "8",
+        "rawg": "15",
+        "tgdb": "11"
+      }
+    },
+    {
+      "key": "ps3",
+      "shortName": "PS3",
+      "name": "Sony PlayStation 3",
+      "supportedFiles": [
+        {
+          "type": "pkg"
+        },
+        {
+          "type": "elf"
+        },
+        {
+          "type": "self"
+        },
+        {
+          "type": "bin",
+          "nonDescriptiveNames": [
+            "eboot",
+            "boot"
+          ]
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "9",
+        "rawg": "16",
+        "tgdb": "12"
+      }
+    },
+    {
+      "key": "psp",
+      "shortName": "PSP",
+      "name": "Sony PlayStation Portable",
+      "supportedFiles": [
+        {
+          "type": "iso"
+        },
+        {
+          "type": "cso"
+        },
+        {
+          "type": "dax"
+        },
+        {
+          "type": "pbp",
+          "nonDescriptiveNames": [
+            "eboot",
+            "param"
+          ]
+        },
+        {
+          "type": "elf"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "rar"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "38",
+        "rawg": "17",
+        "tgdb": "13"
+      }
+    },
+    {
+      "key": "psv",
+      "shortName": "PSV",
+      "name": "Sony PlayStation Vita",
+      "supportedFiles": [
+        {
+          "type": "psvita",
+          "idBy": "content"
+        },
+        {
+          "type": "bin",
+          "nonDescriptiveNames": [
+            "eboot",
+            "param"
+          ],
+          "ignoredNames": [
+            "head",
+            "body",
+            "tail",
+            "temp",
+            "work",
+            "stat",
+            "psvitaproductcodes"
+          ],
+          "idBy": "folder"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "46",
+        "rawg": "19",
+        "tgdb": "39"
+      }
+    },
+    {
+      "key": "n64",
+      "shortName": "N64",
+      "name": "Nintendo 64",
+      "supportedFiles": [
+        {
+          "type": "bin"
+        },
+        {
+          "type": "d64"
+        },
+        {
+          "type": "n64"
+        },
+        {
+          "type": "ndd"
+        },
+        {
+          "type": "u1"
+        },
+        {
+          "type": "v64"
+        },
+        {
+          "type": "z64"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "4",
+        "rawg": "83",
+        "tgdb": "3"
+      }
+    },
+    {
+      "key": "gc",
+      "shortName": "GC",
+      "name": "Nintendo GameCube",
+      "supportedFiles": [
+        {
+          "type": "gcm"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "gcz"
+        },
+        {
+          "type": "ciso"
+        },
+        {
+          "type": "wbfs"
+        },
+        {
+          "type": "wia"
+        },
+        {
+          "type": "rvz"
+        },
+        {
+          "type": "dol"
+        },
+        {
+          "type": "wad"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "21",
+        "rawg": "105",
+        "tgdb": "2"
+      }
+    },
+    {
+      "key": "wii",
+      "shortName": "WII",
+      "name": "Nintendo Wii",
+      "supportedFiles": [
+        {
+          "type": "gcm"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "gcz"
+        },
+        {
+          "type": "ciso"
+        },
+        {
+          "type": "wbfs"
+        },
+        {
+          "type": "wia"
+        },
+        {
+          "type": "rvz"
+        },
+        {
+          "type": "nfs"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "5",
+        "rawg": "11",
+        "tgdb": "9"
+      }
+    },
+    {
+      "key": "wiiu",
+      "shortName": "WIIU",
+      "name": "Nintendo WiiU",
+      "supportedFiles": [
+        {
+          "type": "wux"
+        },
+        {
+          "type": "wud"
+        },
+        {
+          "type": "wua"
+        },
+        {
+          "type": "wuhb"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "elf"
+        },
+        {
+          "type": "rpx"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "41",
+        "rawg": "10",
+        "tgdb": "38"
+      }
+    },
+    {
+      "key": "ns",
+      "shortName": "NS",
+      "name": "Nintendo Switch",
+      "supportedFiles": [
+        {
+          "type": "nca"
+        },
+        {
+          "type": "nro"
+        },
+        {
+          "type": "nso"
+        },
+        {
+          "type": "nsp"
+        },
+        {
+          "type": "xci"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "130",
+        "rawg": "7",
+        "tgdb": "4971"
+      }
+    },
+    {
+      "key": "snes",
+      "shortName": "SNES",
+      "name": "Super Nintendo Entertainment System (SNES/Super Famicom)",
+      "supportedFiles": [
+        {
+          "type": "bin"
+        },
+        {
+          "type": "bml"
+        },
+        {
+          "type": "bs"
+        },
+        {
+          "type": "bsx"
+        },
+        {
+          "type": "dx2"
+        },
+        {
+          "type": "fig"
+        },
+        {
+          "type": "gd3"
+        },
+        {
+          "type": "gd7"
+        },
+        {
+          "type": "mgd"
+        },
+        {
+          "type": "smc"
+        },
+        {
+          "type": "st"
+        },
+        {
+          "type": "swc"
+        },
+        {
+          "type": "sfc"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "zip"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "19",
+        "rawg": "79",
+        "tgdb": "6"
+      }
+    },
+    {
+      "key": "scm",
+      "shortName": "SVM",
+      "name": "SCUMM",
+      "alternativeName": "PC",
+      "supportedFiles": [
+        {
+          "type": "scummvm",
+          "idBy": "content"
+        },
+        {
+          "type": "svm",
+          "idBy": "content"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "6",
+        "rawg": "4",
+        "tgdb": "1"
+      }
+    },
+    {
+      "key": "win",
+      "shortName": "WIN",
+      "name": "PC",
+      "supportedFiles": [
+        {
+          "type": "desktop"
+        },
+        {
+          "type": "steam",
+          "idBy": "content"
+        },
+        {
+          "type": "txt",
+          "ignoredNames": [
+            "systeminfo"
+          ],
+          "idBy": "content"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "6",
+        "rawg": "4",
+        "tgdb": "1"
+      }
+    }
+  ],
+  "emulatorApps": [
+    {
+      "packageName": "xyz.aethersx2.android",
+      "name": "AetherSX2 / NetherSX2",
+      "supportedPlatforms": [
+        "ps2"
+      ],
+      "launchConfiguration": {
+        "action": "android.intent.action.MAIN",
+        "fileParameterName": "bootPath",
+        "explicitActivity": "xyz.aethersx2.android.EmulationActivity"
+      }
+    },
+    {
+      "packageName": "org.sudachi.sudachi_emu",
+      "name": "Sudachi",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      }
+    },
+    {
+      "packageName": "org.scummvm.scummvm",
+      "name": "ScummVM",
+      "supportedPlatforms": [
+        "scm"
+      ],
+      "launchConfiguration": {
+        "action": "android.intent.action.MAIN",
+        "explicitActivity": "org.scummvm.scummvm.SplashActivity",
+        "launchById": true
+      }
+    },
+    {
+      "packageName": "org.ppsspp.ppssppgold",
+      "name": "PPSSPP Gold",
+      "supportedPlatforms": [
+        "psp"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "org.ppsspp.ppsspp.PpssppActivity"
+      }
+    },
+    {
+      "packageName": "org.ppsspp.ppsspp",
+      "name": "PPSSPP",
+      "supportedPlatforms": [
+        "psp"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "org.ppsspp.ppsspp.PpssppActivity"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/opera_libretro_android.so",
+      "name": "RetroArch - Opera",
+      "supportedPlatforms": [
+        "3do"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/puae_libretro_android.so",
+      "name": "RetroArch - PUAE",
+      "supportedPlatforms": [
+        "cda",
+        "cd1",
+        "cd32",
+        "cd6"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/puae2021_libretro_android.so",
+      "name": "RetroArch - PUAE 2021",
+      "supportedPlatforms": [
+        "cda",
+        "cd1",
+        "cd32",
+        "cd6"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/cap32_libretro_android.so",
+      "name": "RetroArch - Caprice32",
+      "supportedPlatforms": [
+        "cpc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/crocods_libretro_android.so",
+      "name": "RetroArch - CrocoDS",
+      "supportedPlatforms": [
+        "cpc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/mamearcade_libretro_android.so",
+      "name": "RetroArch - MAME",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/mame2010_libretro_android.so",
+      "name": "RetroArch - MAME 2010",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/mame2003_plus_libretro_android.so",
+      "name": "RetroArch - MAME 2003-Plus",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/mame2003_libretro_android.so",
+      "name": "RetroArch - MAME 2003",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/mame2000_libretro_android.so",
+      "name": "RetroArch - MAME 2000",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/fbneo_libretro_android.so",
+      "name": "RetroArch - FinalBurn Neo",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/fbalpha2012_libretro_android.so",
+      "name": "RetroArch - FB Alpha 2012",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/dice_libretro_android.so",
+      "name": "RetroArch - DICE",
+      "supportedPlatforms": [
+        "arc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/ardens_libretro_android.so",
+      "name": "RetroArch - Ardens",
+      "supportedPlatforms": [
+        "ard"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/stella_libretro_android.so",
+      "name": "RetroArch - Stella",
+      "supportedPlatforms": [
+        "a26"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/stella2014_libretro_android.so",
+      "name": "RetroArch - Stella 2014",
+      "supportedPlatforms": [
+        "a26"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/stella2023_libretro_android.so",
+      "name": "RetroArch - Stella 2023",
+      "supportedPlatforms": [
+        "a26"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/a5200_libretro_android.so",
+      "name": "RetroArch - a5200",
+      "supportedPlatforms": [
+        "a52"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/prosystem_libretro_android.so",
+      "name": "RetroArch - ProSystem",
+      "supportedPlatforms": [
+        "a78"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/virtualjaguar_libretro_android.so",
+      "name": "RetroArch - Virtual Jaguar",
+      "supportedPlatforms": [
+        "jag"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/handy_libretro_android.so",
+      "name": "RetroArch - Handy",
+      "supportedPlatforms": [
+        "lynx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/mednafen_lynx_libretro_android.so",
+      "name": "RetroArch - Beetle Lynx",
+      "supportedPlatforms": [
+        "lynx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/holani_libretro_android.so",
+      "name": "RetroArch - Holani",
+      "supportedPlatforms": [
+        "lynx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/hatari_libretro_android.so",
+      "name": "RetroArch - Hatari",
+      "supportedPlatforms": [
+        "ast"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/vice_x64sc_libretro_android.so",
+      "name": "RetroArch - VICE x64sc (accurate)",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/vice_x64_libretro_android.so",
+      "name": "RetroArch - VICE x64 (fast)",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/vice_xscpu64_libretro_android.so",
+      "name": "RetroArch - VICE xscpu64",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/vice_x128_libretro_android.so",
+      "name": "RetroArch - VICE x128",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/dosbox_core_libretro_android.so",
+      "name": "RetroArch - DOSBox-core",
+      "supportedPlatforms": [
+        "dos"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/dosbox_pure_libretro_android.so",
+      "name": "RetroArch - DOSBox-Pure",
+      "supportedPlatforms": [
+        "dos"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/dosbox_svn_libretro_android.so",
+      "name": "RetroArch - DOSBox-SVN",
+      "supportedPlatforms": [
+        "dos"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/flycast_libretro_android.so",
+      "name": "RetroArch - Flycast",
+      "supportedPlatforms": [
+        "sdc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/mesen_libretro_android.so",
+      "name": "RetroArch - Mesen",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/fceumm_libretro_android.so",
+      "name": "RetroArch - FCEUmm",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/nestopia_libretro_android.so",
+      "name": "RetroArch - Nestopia",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/quicknes_libretro_android.so",
+      "name": "RetroArch - QuickNES",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/smsplus_libretro_android.so",
+      "name": "RetroArch - SMS Plus GX",
+      "supportedPlatforms": [
+        "sgg",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/genesis_plus_gx_wide_libretro_android.so",
+      "name": "RetroArch - Genesis Plus GX Wide",
+      "supportedPlatforms": [
+        "sgg",
+        "gen",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/genesis_plus_gx_libretro_android.so",
+      "name": "RetroArch - Genesis Plus GX",
+      "supportedPlatforms": [
+        "sgg",
+        "gen",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/picodrive_libretro_android.so",
+      "name": "RetroArch - PicoDrive",
+      "supportedPlatforms": [
+        "sgg",
+        "gen",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/gearsystem_libretro_android.so",
+      "name": "RetroArch - Gearsystem",
+      "supportedPlatforms": [
+        "sgg",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/yabasanshiro_libretro_android.so",
+      "name": "RetroArch - YabaSanshiro",
+      "supportedPlatforms": [
+        "sat"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/yabause_libretro_android.so",
+      "name": "RetroArch - Yabause",
+      "supportedPlatforms": [
+        "sat"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/ppsspp_libretro_android.so",
+      "name": "RetroArch - PPSSPP",
+      "supportedPlatforms": [
+        "psp"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/melonds_libretro_android.so",
+      "name": "RetroArch - MelonDS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/melondsds_libretro_android.so",
+      "name": "RetroArch - MelonDS DS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/desmume2015_libretro_android.so",
+      "name": "RetroArch - DeSmuME 2015",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/desmume_libretro_android.so",
+      "name": "RetroArch - DeSmuME",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/noods_libretro_android.so",
+      "name": "RetroArch - NooDS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/citra2018_libretro_android.so",
+      "name": "RetroArch - Citra (2018)",
+      "supportedPlatforms": [
+        "3ds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/citra_canary_libretro_android.so",
+      "name": "RetroArch - Citra (Canary)",
+      "supportedPlatforms": [
+        "3ds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/citra_libretro_android.so",
+      "name": "RetroArch - Citra",
+      "supportedPlatforms": [
+        "3ds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/scummvm_libretro_android.so",
+      "name": "RetroArch - SCUMMVM",
+      "supportedPlatforms": [
+        "svm"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/gpsp_libretro_android.so",
+      "name": "RetroArch - gpSP",
+      "supportedPlatforms": [
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/vba_next_android.so",
+      "name": "RetroArch - VBA Next",
+      "supportedPlatforms": [
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/DoubleCherryGB_libretro_android.so",
+      "name": "RetroArch - DoubleCherryGB",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/gambatte_libretro_android.so",
+      "name": "RetroArch - Gambatte",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/gearboy_libretro_android.so",
+      "name": "RetroArch - GearBoy",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/sameboy_libretro_android.so",
+      "name": "RetroArch - SameBoy",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/tgbdual_libretro_android.so",
+      "name": "RetroArch - TGB Dual",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/mgba_libretro_android.so",
+      "name": "RetroArch - mGBA",
+      "supportedPlatforms": [
+        "gb",
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/vbam_libretro_android.so",
+      "name": "RetroArch - VBA-M",
+      "supportedPlatforms": [
+        "gb",
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/dolphin_launcher_libretro_android.so",
+      "name": "RetroArch - Dolphin (Launcher)",
+      "supportedPlatforms": [
+        "gc",
+        "wii"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/dolphin_libretro_android.so",
+      "name": "RetroArch - Dolphin",
+      "supportedPlatforms": [
+        "gc",
+        "wii"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/duckstation_libretro_android.so",
+      "name": "RetroArch - DuckStation",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/swanstation_libretro_android.so",
+      "name": "RetroArch - SwanStation",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/pcsx_rearmed_libretro_android.so",
+      "name": "RetroArch - PCSX ReARMed",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/scummvm_libretro_android.so",
+      "name": "RetroArch - ScummVM",
+      "supportedPlatforms": [
+        "scm"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/snes9x_libretro_android.so",
+      "name": "RetroArch - Snes9x",
+      "supportedPlatforms": [
+        "snes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/bsnes_libretro_android.so",
+      "name": "RetroArch - bsnes",
+      "supportedPlatforms": [
+        "snes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/mupen64plus_next_gles2_libretro_android.so",
+      "name": "RetroArch - Mupen64Plus-Next GLES2",
+      "supportedPlatforms": [
+        "n64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/mupen64plus_next_gles3_libretro_android.so",
+      "name": "RetroArch - Mupen64Plus-Next GLES3",
+      "supportedPlatforms": [
+        "n64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "/data/data/com.retroarch/cores/geolith_libretro_android.so",
+      "name": "RetroArch - Geolith",
+      "supportedPlatforms": [
+        "neo"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64.aarch64/cores/opera_libretro_android.so",
+      "name": "RetroArch (64bit) - Opera",
+      "supportedPlatforms": [
+        "3do"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/puae_libretro_android.so",
+      "name": "RetroArch (64bit) - PUAE",
+      "supportedPlatforms": [
+        "cda",
+        "cd1",
+        "cd32",
+        "cd6"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/puae2021_libretro_android.so",
+      "name": "RetroArch (64bit) - PUAE 2021",
+      "supportedPlatforms": [
+        "cda",
+        "cd1",
+        "cd32",
+        "cd6"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/cap32_libretro_android.so",
+      "name": "RetroArch (64bit) - Caprice32",
+      "supportedPlatforms": [
+        "cpc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/crocods_libretro_android.so",
+      "name": "RetroArch (64bit) - CrocoDS",
+      "supportedPlatforms": [
+        "cpc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/mamearcade_libretro_android.so",
+      "name": "RetroArch (64bit) - MAME",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/mame2010_libretro_android.so",
+      "name": "RetroArch (64bit) - MAME 2010",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/mame2003_plus_libretro_android.so",
+      "name": "RetroArch (64bit) - MAME 2003-Plus",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/mame2003_libretro_android.so",
+      "name": "RetroArch (64bit) - MAME 2003",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/mame2000_libretro_android.so",
+      "name": "RetroArch (64bit) - MAME 2000",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/fbneo_libretro_android.so",
+      "name": "RetroArch (64bit) - FinalBurn Neo",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/fbalpha2012_libretro_android.so",
+      "name": "RetroArch (64bit) - FB Alpha 2012",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/dice_libretro_android.so",
+      "name": "RetroArch (64bit) - DICE",
+      "supportedPlatforms": [
+        "arc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/ardens_libretro_android.so",
+      "name": "RetroArch (64bit) - Ardens",
+      "supportedPlatforms": [
+        "ard"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/stella_libretro_android.so",
+      "name": "RetroArch (64bit) - Stella",
+      "supportedPlatforms": [
+        "a26"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/stella2014_libretro_android.so",
+      "name": "RetroArch (64bit) - Stella 2014",
+      "supportedPlatforms": [
+        "a26"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/stella2023_libretro_android.so",
+      "name": "RetroArch (64bit) - Stella 2023",
+      "supportedPlatforms": [
+        "a26"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/a5200_libretro_android.so",
+      "name": "RetroArch (64bit) - a5200",
+      "supportedPlatforms": [
+        "a52"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/prosystem_libretro_android.so",
+      "name": "RetroArch (64bit) - ProSystem",
+      "supportedPlatforms": [
+        "a78"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/virtualjaguar_libretro_android.so",
+      "name": "RetroArch (64bit) - Virtual Jaguar",
+      "supportedPlatforms": [
+        "jag"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/handy_libretro_android.so",
+      "name": "RetroArch (64bit) - Handy",
+      "supportedPlatforms": [
+        "lynx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/mednafen_lynx_libretro_android.so",
+      "name": "RetroArch (64bit) - Beetle Lynx",
+      "supportedPlatforms": [
+        "lynx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/holani_libretro_android.so",
+      "name": "RetroArch (64bit) - Holani",
+      "supportedPlatforms": [
+        "lynx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/hatari_libretro_android.so",
+      "name": "RetroArch (64bit) - Hatari",
+      "supportedPlatforms": [
+        "ast"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/vice_x64sc_libretro_android.so",
+      "name": "RetroArch (64bit) - VICE x64sc (accurate)",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/vice_x64_libretro_android.so",
+      "name": "RetroArch (64bit) - VICE x64 (fast)",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/vice_xscpu64_libretro_android.so",
+      "name": "RetroArch (64bit) - VICE xscpu64",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/vice_x128_libretro_android.so",
+      "name": "RetroArch (64bit) - VICE x128",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/dosbox_core_libretro_android.so",
+      "name": "RetroArch (64bit) - DOSBox-core",
+      "supportedPlatforms": [
+        "dos"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/dosbox_pure_libretro_android.so",
+      "name": "RetroArch (64bit) - DOSBox-Pure",
+      "supportedPlatforms": [
+        "dos"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/dosbox_svn_libretro_android.so",
+      "name": "RetroArch (64bit) - DOSBox-SVN",
+      "supportedPlatforms": [
+        "dos"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/flycast_libretro_android.so",
+      "name": "RetroArch (64bit) - Flycast",
+      "supportedPlatforms": [
+        "sdc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/mesen_libretro_android.so",
+      "name": "RetroArch (64bit) - Mesen",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/fceumm_libretro_android.so",
+      "name": "RetroArch (64bit) - FCEUmm",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/nestopia_libretro_android.so",
+      "name": "RetroArch (64bit) - Nestopia",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/quicknes_libretro_android.so",
+      "name": "RetroArch (64bit) - QuickNES",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/smsplus_libretro_android.so",
+      "name": "RetroArch (64bit) - SMS Plus GX",
+      "supportedPlatforms": [
+        "sgg",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/genesis_plus_gx_wide_libretro_android.so",
+      "name": "RetroArch (64bit) - Genesis Plus GX Wide",
+      "supportedPlatforms": [
+        "sgg",
+        "gen",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/genesis_plus_gx_libretro_android.so",
+      "name": "RetroArch (64bit) - Genesis Plus GX",
+      "supportedPlatforms": [
+        "sgg",
+        "gen",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/picodrive_libretro_android.so",
+      "name": "RetroArch (64bit) - PicoDrive",
+      "supportedPlatforms": [
+        "sgg",
+        "gen",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/gearsystem_libretro_android.so",
+      "name": "RetroArch (64bit) - Gearsystem",
+      "supportedPlatforms": [
+        "sgg",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/yabasanshiro_libretro_android.so",
+      "name": "RetroArch (64bit) - YabaSanshiro",
+      "supportedPlatforms": [
+        "sat"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/yabause_libretro_android.so",
+      "name": "RetroArch (64bit) - Yabause",
+      "supportedPlatforms": [
+        "sat"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/ppsspp_libretro_android.so",
+      "name": "RetroArch (64bit) - PPSSPP",
+      "supportedPlatforms": [
+        "psp"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/melonds_libretro_android.so",
+      "name": "RetroArch (64bit) - MelonDS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/melondsds_libretro_android.so",
+      "name": "RetroArch (64bit) - MelonDS DS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/desmume2015_libretro_android.so",
+      "name": "RetroArch (64bit) - DeSmuME 2015",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/desmume_libretro_android.so",
+      "name": "RetroArch (64bit) - DeSmuME",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/noods_libretro_android.so",
+      "name": "RetroArch (64bit) - NooDS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/citra2018_libretro_android.so",
+      "name": "RetroArch (64bit) - Citra (2018)",
+      "supportedPlatforms": [
+        "3ds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/citra_canary_libretro_android.so",
+      "name": "RetroArch (64bit) - Citra (Canary)",
+      "supportedPlatforms": [
+        "3ds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/citra_libretro_android.so",
+      "name": "RetroArch (64bit) - Citra",
+      "supportedPlatforms": [
+        "3ds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/scummvm_libretro_android.so",
+      "name": "RetroArch (64bit) - SCUMMVM",
+      "supportedPlatforms": [
+        "svm"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/gpsp_libretro_android.so",
+      "name": "RetroArch (64bit) - gpSP",
+      "supportedPlatforms": [
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/vba_next_android.so",
+      "name": "RetroArch (64bit) - VBA Next",
+      "supportedPlatforms": [
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/DoubleCherryGB_libretro_android.so",
+      "name": "RetroArch (64bit) - DoubleCherryGB",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/gambatte_libretro_android.so",
+      "name": "RetroArch (64bit) - Gambatte",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/gearboy_libretro_android.so",
+      "name": "RetroArch (64bit) - GearBoy",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/sameboy_libretro_android.so",
+      "name": "RetroArch (64bit) - SameBoy",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/tgbdual_libretro_android.so",
+      "name": "RetroArch (64bit) - TGB Dual",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/mgba_libretro_android.so",
+      "name": "RetroArch (64bit) - mGBA",
+      "supportedPlatforms": [
+        "gb",
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/vbam_libretro_android.so",
+      "name": "RetroArch (64bit) - VBA-M",
+      "supportedPlatforms": [
+        "gb",
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/dolphin_launcher_libretro_android.so",
+      "name": "RetroArch (64bit) - Dolphin (Launcher)",
+      "supportedPlatforms": [
+        "gc",
+        "wii"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/dolphin_libretro_android.so",
+      "name": "RetroArch (64bit) - Dolphin",
+      "supportedPlatforms": [
+        "gc",
+        "wii"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/duckstation_libretro_android.so",
+      "name": "RetroArch (64bit) - DuckStation",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/swanstation_libretro_android.so",
+      "name": "RetroArch (64bit) - SwanStation",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/pcsx_rearmed_libretro_android.so",
+      "name": "RetroArch (64bit) - PCSX ReARMed",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/scummvm_libretro_android.so",
+      "name": "RetroArch (64bit) - ScummVM",
+      "supportedPlatforms": [
+        "scm"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/snes9x_libretro_android.so",
+      "name": "RetroArch (64bit) - Snes9x",
+      "supportedPlatforms": [
+        "snes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/bsnes_libretro_android.so",
+      "name": "RetroArch (64bit) - bsnes",
+      "supportedPlatforms": [
+        "snes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/mupen64plus_next_gles2_libretro_android.so",
+      "name": "RetroArch (64bit) - Mupen64Plus-Next GLES2",
+      "supportedPlatforms": [
+        "n64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/mupen64plus_next_gles3_libretro_android.so",
+      "name": "RetroArch (64bit) - Mupen64Plus-Next GLES3",
+      "supportedPlatforms": [
+        "n64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "/data/data/com.retroarch.aarch64/cores/geolith_libretro_android.so",
+      "name": "RetroArch (64bit) - Geolith",
+      "supportedPlatforms": [
+        "neo"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32.ra32/cores/opera_libretro_android.so",
+      "name": "RetroArch (32bit) - Opera",
+      "supportedPlatforms": [
+        "3do"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/puae_libretro_android.so",
+      "name": "RetroArch (32bit) - PUAE",
+      "supportedPlatforms": [
+        "cda",
+        "cd1",
+        "cd32",
+        "cd6"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/puae2021_libretro_android.so",
+      "name": "RetroArch (32bit) - PUAE 2021",
+      "supportedPlatforms": [
+        "cda",
+        "cd1",
+        "cd32",
+        "cd6"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/cap32_libretro_android.so",
+      "name": "RetroArch (32bit) - Caprice32",
+      "supportedPlatforms": [
+        "cpc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/crocods_libretro_android.so",
+      "name": "RetroArch (32bit) - CrocoDS",
+      "supportedPlatforms": [
+        "cpc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/mamearcade_libretro_android.so",
+      "name": "RetroArch (32bit) - MAME",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "name": "RetroArch (32bit) - MAME 2010",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/mame2003_plus_libretro_android.so",
+      "name": "RetroArch (32bit) - MAME 2003-Plus",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/mame2003_libretro_android.so",
+      "name": "RetroArch (32bit) - MAME 2003",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/mame2000_libretro_android.so",
+      "name": "RetroArch (32bit) - MAME 2000",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/fbneo_libretro_android.so",
+      "name": "RetroArch (32bit) - FinalBurn Neo",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/fbalpha2012_libretro_android.so",
+      "name": "RetroArch (32bit) - FB Alpha 2012",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/dice_libretro_android.so",
+      "name": "RetroArch (32bit) - DICE",
+      "supportedPlatforms": [
+        "arc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/ardens_libretro_android.so",
+      "name": "RetroArch (32bit) - Ardens",
+      "supportedPlatforms": [
+        "ard"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/stella_libretro_android.so",
+      "name": "RetroArch (32bit) - Stella",
+      "supportedPlatforms": [
+        "a26"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/stella2014_libretro_android.so",
+      "name": "RetroArch (32bit) - Stella 2014",
+      "supportedPlatforms": [
+        "a26"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/stella2023_libretro_android.so",
+      "name": "RetroArch (32bit) - Stella 2023",
+      "supportedPlatforms": [
+        "a26"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/a5200_libretro_android.so",
+      "name": "RetroArch (32bit) - a5200",
+      "supportedPlatforms": [
+        "a52"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/prosystem_libretro_android.so",
+      "name": "RetroArch (32bit) - ProSystem",
+      "supportedPlatforms": [
+        "a78"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/virtualjaguar_libretro_android.so",
+      "name": "RetroArch (32bit) - Virtual Jaguar",
+      "supportedPlatforms": [
+        "jag"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/handy_libretro_android.so",
+      "name": "RetroArch (32bit) - Handy",
+      "supportedPlatforms": [
+        "lynx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/mednafen_lynx_libretro_android.so",
+      "name": "RetroArch (32bit) - Beetle Lynx",
+      "supportedPlatforms": [
+        "lynx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/holani_libretro_android.so",
+      "name": "RetroArch (32bit) - Holani",
+      "supportedPlatforms": [
+        "lynx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/hatari_libretro_android.so",
+      "name": "RetroArch (32bit) - Hatari",
+      "supportedPlatforms": [
+        "ast"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/vice_x64sc_libretro_android.so",
+      "name": "RetroArch (32bit) - VICE x64sc (accurate)",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/vice_x64_libretro_android.so",
+      "name": "RetroArch (32bit) - VICE x64 (fast)",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/vice_xscpu64_libretro_android.so",
+      "name": "RetroArch (32bit) - VICE xscpu64",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/vice_x128_libretro_android.so",
+      "name": "RetroArch (32bit) - VICE x128",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/dosbox_core_libretro_android.so",
+      "name": "RetroArch (32bit) - DOSBox-core",
+      "supportedPlatforms": [
+        "dos"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/dosbox_pure_libretro_android.so",
+      "name": "RetroArch (32bit) - DOSBox-Pure",
+      "supportedPlatforms": [
+        "dos"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/dosbox_svn_libretro_android.so",
+      "name": "RetroArch (32bit) - DOSBox-SVN",
+      "supportedPlatforms": [
+        "dos"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/flycast_libretro_android.so",
+      "name": "RetroArch (32bit) - Flycast",
+      "supportedPlatforms": [
+        "sdc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/mesen_libretro_android.so",
+      "name": "RetroArch (32bit) - Mesen",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
+      "name": "RetroArch (32bit) - FCEUmm",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+      "name": "RetroArch (32bit) - Nestopia",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/quicknes_libretro_android.so",
+      "name": "RetroArch (32bit) - QuickNES",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+      "name": "RetroArch (32bit) - SMS Plus GX",
+      "supportedPlatforms": [
+        "sgg",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_wide_libretro_android.so",
+      "name": "RetroArch (32bit) - Genesis Plus GX Wide",
+      "supportedPlatforms": [
+        "sgg",
+        "gen",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+      "name": "RetroArch (32bit) - Genesis Plus GX",
+      "supportedPlatforms": [
+        "sgg",
+        "gen",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/picodrive_libretro_android.so",
+      "name": "RetroArch (32bit) - PicoDrive",
+      "supportedPlatforms": [
+        "sgg",
+        "gen",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/gearsystem_libretro_android.so",
+      "name": "RetroArch (32bit) - Gearsystem",
+      "supportedPlatforms": [
+        "sgg",
+        "sms"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/yabasanshiro_libretro_android.so",
+      "name": "RetroArch (32bit) - YabaSanshiro",
+      "supportedPlatforms": [
+        "sat"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/yabause_libretro_android.so",
+      "name": "RetroArch (32bit) - Yabause",
+      "supportedPlatforms": [
+        "sat"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/ppsspp_libretro_android.so",
+      "name": "RetroArch (32bit) - PPSSPP",
+      "supportedPlatforms": [
+        "psp"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/melonds_libretro_android.so",
+      "name": "RetroArch (32bit) - MelonDS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/melondsds_libretro_android.so",
+      "name": "RetroArch (32bit) - MelonDS DS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/desmume2015_libretro_android.so",
+      "name": "RetroArch (32bit) - DeSmuME 2015",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/desmume_libretro_android.so",
+      "name": "RetroArch (32bit) - DeSmuME",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/noods_libretro_android.so",
+      "name": "RetroArch (32bit) - NooDS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/citra2018_libretro_android.so",
+      "name": "RetroArch (32bit) - Citra (2018)",
+      "supportedPlatforms": [
+        "3ds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/citra_canary_libretro_android.so",
+      "name": "RetroArch (32bit) - Citra (Canary)",
+      "supportedPlatforms": [
+        "3ds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/citra_libretro_android.so",
+      "name": "RetroArch (32bit) - Citra",
+      "supportedPlatforms": [
+        "3ds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/scummvm_libretro_android.so",
+      "name": "RetroArch (32bit) - SCUMMVM",
+      "supportedPlatforms": [
+        "svm"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/gpsp_libretro_android.so",
+      "name": "RetroArch (32bit) - gpSP",
+      "supportedPlatforms": [
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/vba_next_android.so",
+      "name": "RetroArch (32bit) - VBA Next",
+      "supportedPlatforms": [
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/DoubleCherryGB_libretro_android.so",
+      "name": "RetroArch (32bit) - DoubleCherryGB",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+      "name": "RetroArch (32bit) - Gambatte",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/gearboy_libretro_android.so",
+      "name": "RetroArch (32bit) - GearBoy",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/sameboy_libretro_android.so",
+      "name": "RetroArch (32bit) - SameBoy",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/tgbdual_libretro_android.so",
+      "name": "RetroArch (32bit) - TGB Dual",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/mgba_libretro_android.so",
+      "name": "RetroArch (32bit) - mGBA",
+      "supportedPlatforms": [
+        "gb",
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/vbam_libretro_android.so",
+      "name": "RetroArch (32bit) - VBA-M",
+      "supportedPlatforms": [
+        "gb",
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/dolphin_launcher_libretro_android.so",
+      "name": "RetroArch (32bit) - Dolphin (Launcher)",
+      "supportedPlatforms": [
+        "gc",
+        "wii"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/dolphin_libretro_android.so",
+      "name": "RetroArch (32bit) - Dolphin",
+      "supportedPlatforms": [
+        "gc",
+        "wii"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/duckstation_libretro_android.so",
+      "name": "RetroArch (32bit) - DuckStation",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/swanstation_libretro_android.so",
+      "name": "RetroArch (32bit) - SwanStation",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/pcsx_rearmed_libretro_android.so",
+      "name": "RetroArch (32bit) - PCSX ReARMed",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/scummvm_libretro_android.so",
+      "name": "RetroArch (32bit) - ScummVM",
+      "supportedPlatforms": [
+        "scm"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/snes9x_libretro_android.so",
+      "name": "RetroArch (32bit) - Snes9x",
+      "supportedPlatforms": [
+        "snes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/bsnes_libretro_android.so",
+      "name": "RetroArch (32bit) - bsnes",
+      "supportedPlatforms": [
+        "snes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/mupen64plus_next_gles2_libretro_android.so",
+      "name": "RetroArch (32bit) - Mupen64Plus-Next GLES2",
+      "supportedPlatforms": [
+        "n64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/mupen64plus_next_gles3_libretro_android.so",
+      "name": "RetroArch (32bit) - Mupen64Plus-Next GLES3",
+      "supportedPlatforms": [
+        "n64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "/data/data/com.retroarch.ra32/cores/geolith_libretro_android.so",
+      "name": "RetroArch (32bit) - Geolith",
+      "supportedPlatforms": [
+        "neo"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
+      }
+    },
+    {
+      "packageName": "org.mupen64plusae.v3.fzurita.pro",
+      "name": "M64Plus FZ Pro",
+      "supportedPlatforms": [
+        "n64"
+      ]
+    },
+    {
+      "packageName": "org.dolphinemu.dolphinemu",
+      "name": "Dolphin",
+      "supportedPlatforms": [
+        "gc",
+        "wii"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "AutoStartFile",
+        "explicitActivity": "org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      }
+    },
+    {
+      "packageName": "org.citra.emu",
+      "name": "Citra",
+      "supportedPlatforms": [
+        "3ds"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "GamePath",
+        "explicitActivity": "org.citra.emu.ui.main.MainActivity"
+      }
+    },
+    {
+      "packageName": "com.dsemu.drastic",
+      "name": "DraStic",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.dsemu.drastic.DraSticActivity"
+      }
+    },
+    {
+      "packageName": "org.citron.citron_emu",
+      "name": "Citron",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      }
+    },
+    {
+      "packageName": "dev.eden.eden_emulator",
+      "name": "Eden",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      }
+    },
+    {
+      "packageName": "net.rpcs3",
+      "name": "RPCS3",
+      "supportedPlatforms": [
+        "ps3"
+      ]
+    },
+    {
+      "packageName": "com.explusalpha.Snes9xPlus",
+      "name": "SNES9x Plus",
+      "supportedPlatforms": [
+        "snes"
+      ]
+    },
+    {
+      "packageName": "org.vita3k.emulator",
+      "name": "Vita3K",
+      "supportedPlatforms": [
+        "psv"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "org.vita3k.emulator.Emulator",
+        "action": "LAUNCH_%1$id",
+        "launchById": true
+      }
+    },
+    {
+      "packageName": "io.github.lime3ds.android",
+      "name": "Lime3DS / Azahar",
+      "supportedPlatforms": [
+        "3ds"
+      ]
+    },
+    {
+      "packageName": "info.cemu.Cemu",
+      "name": "Cemu (Deprecated)",
+      "supportedPlatforms": [
+        "wiiu"
+      ],
+      "flag": "deprecated"
+    },
+    {
+      "packageName": "info.cemu.cemu",
+      "name": "Cemu",
+      "supportedPlatforms": [
+        "wiiu"
+      ]
+    },
+    {
+      "packageName": "me.magnum.melonds",
+      "name": "melonDS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "uri",
+        "explicitActivity": "me.magnum.melonds.ui.emulator.EmulatorActivity"
+      }
+    },
+    {
+      "packageName": "com.github.stenzek.duckstation",
+      "name": "DuckStation",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "bootPath",
+        "explicitActivity": "com.github.stenzek.duckstation.EmulationActivity"
+      }
+    },
+    {
+      "packageName": "com.winlator",
+      "name": "Winlator",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "shortcut_path",
+        "explicitActivity": "com.winlator.XServerDisplayActivity"
+      }
+    },
+    {
+      "packageName": "it.dbtecno.pizzaboygba",
+      "name": "Pizza Boy A Basic",
+      "supportedPlatforms": [
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "it.dbtecno.pizzaboygba.MainActivity",
+        "fileParameterName": "rom_uri"
+      }
+    },
+    {
+      "packageName": "it.dbtecno.pizzaboygbapro",
+      "name": "Pizza Boy A Pro",
+      "supportedPlatforms": [
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "it.dbtecno.pizzaboygbapro.MainActivity",
+        "fileParameterName": "rom_uri"
+      }
+    },
+    {
+      "packageName": "it.dbtecno.pizzaboypro",
+      "name": "Pizza Boy C Pro",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "it.dbtecno.pizzaboypro.MainActivity",
+        "fileParameterName": "rom_uri"
+      }
+    },
+    {
+      "packageName": "it.dbtecno.pizzaboy",
+      "name": "Pizza Boy C Basic",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "it.dbtecno.pizzaboy.MainActivity",
+        "fileParameterName": "rom_uri"
+      }
+    },
+    {
+      "packageName": "it.dbtecno.pizzaboyscpro",
+      "name": "Pizza Boy SC Pro Genesis Emu",
+      "supportedPlatforms": [
+        "gen"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "it.dbtecno.pizzaboyscpro.MainActivity",
+        "fileParameterName": "rom_uri"
+      }
+    },
+    {
+      "packageName": "it.dbtecno.pizzaboyscbasic",
+      "name": "Pizza Boy SC Basic Emulator",
+      "supportedPlatforms": [
+        "gen"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "it.dbtecno.pizzaboyscbasic.MainActivity",
+        "fileParameterName": "rom_uri"
+      }
+    },
+    {
+      "packageName": "app.gamenative",
+      "name": "GameNative",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "app.gamenative.LAUNCH_GAME",
+        "explicitActivity": "app.gamenative.MainActivity",
+        "idParameterName": "app_id",
+        "fileParameterType": "int",
+        "launchById": true
+      }
+    },
+    {
+      "packageName": "gamehub.lite",
+      "name": "GameHub Lite - Steam game",
+      "core": "steam",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "gamehub.lite.LAUNCH_GAME",
+        "explicitActivity": "com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity",
+        "idParameterName": "steamAppId",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "autoStartGame",
+            "booleanValue": true
+          }
+        ]
+      }
+    },
+    {
+      "packageName": "gamehub.lite",
+      "name": "GameHub Lite - Local game",
+      "core": "local",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "gamehub.lite.LAUNCH_GAME",
+        "explicitActivity": "com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity",
+        "idParameterName": "localGameId",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "autoStartGame",
+            "booleanValue": true
+          }
+        ]
+      }
+    }
+  ],
+  "streamingApps": [
+    {
+      "packageName": "com.limelight.noir",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "com.limelight",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "com.valvesoftware.steamlink",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "com.playstation.remoteplay"
+    },
+    {
+      "packageName": "psplay.grill.com"
+    },
+    {
+      "packageName": "com.redphx.betterxc"
+    }
+  ]
+}
