@@ -66,10 +66,10 @@ Example:
 #### SupportedFile
 Defines rules for a file type.
 
-**- `type` (Required):** The file type (Aka the letters behind the dot). Should be lowercase for consistency, but the case is ignored by Papaya.
-**- `nonDescriptiveNames`:** A list of file names (without the type) which don't hold any useful information for the scrapers. If such a name is matched, Papaya considers this file as a game, but will try to get of the search term for scraping from somwhere else (See samples below)
-**- `ignoredNames`:** A list of file names (without the type). If such a name is matched, Papaya does not consider this file as a game file -> The file is ignored.
-**- `idBy`:** If set, the value must be either `content` or `folder`. If this is set, Papaya considers a matching file not as a Rom, but as a definition of a Game ID. Depending on the set value, Papaya tries to extract Game ID either from the file `content` or the `folder` name in which the file lies (See samples below).
+- **`type` (Required):** The file type (Aka the letters behind the dot). Should be lowercase for consistency, but the case is ignored by Papaya.
+- **`nonDescriptiveNames`:** A list of file names (without the type) which don't hold any useful information for the scrapers. If such a name is matched, Papaya considers this file as a game, but will try to get of the search term for scraping from somwhere else (See samples below)
+- **`ignoredNames`:** A list of file names (without the type). If such a name is matched, Papaya does not consider this file as a game file -> The file is ignored.
+- **`idBy`:** If set, the value must be either `content` or `folder`. If this is set, Papaya considers a matching file not as a Rom, but as a definition of a Game ID. Depending on the set value, Papaya tries to extract Game ID either from the file `content` or the `folder` name in which the file lies (See samples below).
 
 **Examples:**
 
@@ -105,11 +105,9 @@ For very common file types, we might want to ignore a file if it has a certain n
 #### ScraperPlatformId
 An optional object which contains the IDs of the platform on various scraper platforms. All fields are optional. If an ID for a scraper is set, Papaya saves an extra network call to get the platform by name: Less load for the API, shorter scraping time for the user.
 
-**- `igdb`:** The ID of the platform on the "Internet Games Database".
-
-**- `tgdb`:** The ID of the platform on the "The Games DB".
-
-**- `rawg`:** The ID of the platform on Rawg.
+- **`igdb`:** The ID of the platform on the "Internet Games Database".
+- **`tgdb`:** The ID of the platform on the "The Games DB".
+- **`rawg`:** The ID of the platform on Rawg.
 
 ### EmulatorApps
 TBD
