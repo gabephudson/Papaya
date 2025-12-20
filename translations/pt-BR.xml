@@ -213,6 +213,7 @@
     <string name="item_options_edit_exit_warning_dialog_confirm">Sair e descartar alterações</string>
     <string name="item_options_edit_exit_warning_dialog_dismiss">@string/common_cancel</string>
 
+
     <!-- Settings - Key hints -->
     <string name="settings_key_hints_navigate">@string/common_navigate</string>
     <string name="settings_key_hints_back">@string/common_back</string>

@@ -1,0 +1,504 @@
+<resources>
+
+    <!-- Common -->
+    <string name="common_select">Seleccionar</string>
+    <string name="common_navigate">Navegar</string>
+    <string name="common_back">Volver</string>
+    <string name="common_exit">Salir</string>
+    <string name="common_cancel">Cancelar</string>
+    <string name="common_custom">PERSONALIZADO</string>
+    <string name="common_save">Guardar</string>
+    <string name="common_saving">Guardando</string>
+    <string name="common_okay">Ok</string>
+    <string name="common_done">Listo</string>
+
+    <!-- Gallery - Top bar -->
+    <string name="gallery_top_bar_buy_license">Comprar licencia</string>
+    <string name="gallery_top_bar_settings">Ajustes</string>
+    <string name="gallery_top_bar_category_games">Juegos</string>
+    <string name="gallery_top_bar_category_apps">Apps</string>
+    <string name="gallery_top_bar_category_streaming">Streaming</string>
+    <string name="gallery_top_bar_category_emulators">Emuladores</string>
+
+    <!-- Gallery - Key hints -->
+    <string name="gallery_key_hints_buy_license">Licencia</string>
+    <string name="gallery_key_hints_settings">@string/gallery_top_bar_settings</string>
+    <string name="gallery_key_hints_tab">Pestaña</string>
+    <string name="gallery_key_hints_navigate">@string/common_navigate</string>
+    <string name="gallery_key_hints_options">Opciones</string>
+    <string name="gallery_key_hints_back">@string/common_back</string>
+    <string name="gallery_key_hints_launch">Jugar</string>
+
+    <!-- Gallery - Games -->
+    <string name="gallery_games_welcome_dialog_title">¡Bienvenido!</string>
+    <string name="gallery_games_welcome_dialog_text">Encontré %1$s y lo agregué a tu colección.\n¿Quieres descargar las carátulas ahora?\n</string>
+    <string name="gallery_games_welcome_dialog_confirm">Sí, descargar carátulas</string>
+    <string name="gallery_games_welcome_dialog_dismiss">No, tal vez después</string>
+    <plurals name="gallery_games_welcome_dialog_text_game_quantity">
+        <item quantity="one">un juego de Android</item>
+        <item quantity="other">%d juegos de Android</item>
+    </plurals>
+
+    <string name="gallery_games_welcome_embedded_title">@string/gallery_games_welcome_dialog_title</string>
+    <string name="gallery_games_welcome_embedded_text">Empieza agregando tus juegos:</string>
+    <string name="gallery_games_welcome_embedded_cta">Agregar tu primera plataforma</string>
+
+    <string name="gallery_games_cover_loading_label">Cargando</string>
+
+    <string name="gallery_games_error_game_launch_failed_title">No se pudo iniciar el juego</string>
+    <string name="gallery_games_error_game_launch_failed_app_not_found">Falló al iniciar \"%1$s\". Asegúrate de que la app esté instalada y habilitada.</string>
+    <string name="gallery_games_error_game_launch_failed_generic">Falló al iniciar \"%1$s\" por una razón desconocida:\n%2$s</string>
+    <string name="gallery_games_error_app_launch_failed_title">No se pudo iniciar la app</string>
+    <string name="gallery_games_error_app_launch_failed_app_not_found">@string/gallery_games_error_game_launch_failed_app_not_found</string>
+    <string name="gallery_games_error_app_launch_failed_generic">@string/gallery_games_error_game_launch_failed_generic</string>
+
+    <!-- Platform configuration - Key hints-->
+    <string name="platform_configuration_key_hints_next_step">Siguiente paso</string>
+    <string name="platform_configuration_key_hints_previous_step_done">Paso anterior / Listo</string>
+    <string name="platform_configuration_key_hints_previous_step_next_step">Paso anterior / Siguiente</string>
+    <string name="platform_configuration_key_hints_navigate">@string/common_navigate</string>
+    <string name="platform_configuration_key_hints_exit">@string/common_exit</string>
+    <string name="platform_configuration_key_hints_cancel">@string/common_cancel</string>
+    <string name="platform_configuration_key_hints_select_unselect">Seleccionar / Deseleccionar</string>
+    <string name="platform_configuration_key_hints_select">@string/common_select</string>
+    <string name="platform_configuration_key_hints_add_remove_folder">Agregar / Quitar carpeta</string>
+    <string name="platform_configuration_key_hints_open_emulator_selection">Abrir selección de emulador</string>
+
+    <!-- Platform configuration - General -->
+    <string name="platform_configuration_general_loading_read_game_files_title">Buscando archivos de juegos</string>
+    <string name="platform_configuration_general_loading_read_game_files_description_reading_files">Leyendo archivo %1$s</string>
+    <string name="platform_configuration_general_loading_read_game_files_sub_description_reading_files">Encontrados: %1$s</string>
+    <string name="platform_configuration_general_loading_read_game_files_description_preparing_file_tree">Preparando visualización de archivos</string>
+    <string name="platform_configuration_general_saving">@string/common_saving</string>
+    <string name="platform_configuration_general_exit_warning_dialog_title">¿Salir del configurador de plataforma?</string>
+    <string name="platform_configuration_general_exit_warning_dialog_text">Se perderán todos los cambios que hiciste.\nSi solo quieres volver un paso atrás, usa el botón &lt;.</string>
+    <string name="platform_configuration_general_exit_warning_dialog_confirm">Salir y descartar todo</string>
+    <string name="platform_configuration_general_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="platform_configuration_general_content_description_previous_step">Paso anterior</string>
+    <string name="platform_configuration_general_button_done">@string/common_done</string>
+    <string name="platform_configuration_general_button_next_step">Siguiente</string>
+    <string name="platform_configuration_general_content_description_next_step">Siguiente paso</string>
+
+    <!-- Platform configuration - Platform selection step -->
+    <string name="platform_configuration_platform_selection_title">Plataforma</string>
+    <string name="platform_configuration_platform_selection_description">Selecciona la plataforma</string>
+    <string name="platform_configuration_platform_selection_label_custom_platform">@string/common_custom</string>
+
+    <!-- Platform configuration - Android games selection step -->
+    <string name="platform_configuration_android_games_selection_title">Apps de juegos</string>
+    <string name="platform_configuration_android_games_selection_description">Selecciona tus apps de juegos</string>
+
+    <!-- Platform configuration - Emulator apps selection step -->
+    <string name="platform_configuration_emulator_apps_selection_title">Emuladores</string>
+    <string name="platform_configuration_emulator_apps_selection_description">Selecciona los emuladores</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_title">¿No encuentras tu emulador en la lista?</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_description">Lamentablemente esto significa que el emulador no está soportado de fábrica.\nSin embargo, puedes agregar la configuración tú mismo en [Ajustes] > [Avanzado] > [Emuladores personalizados] > [Crear].</string>
+    <string name="platform_configuration_emulator_apps_selection_label_custom_emulator_app">@string/common_custom</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_installed">Instalado</string>
+
+    <!-- Platform configuration - Folders selection step -->
+    <string name="platform_configuration_folders_selection_title">Carpetas</string>
+    <string name="platform_configuration_folders_selection_description">Agrega las carpetas que tienen tus juegos</string>
+    <string name="platform_configuration_folders_selection_cta_add_folder">Agregar carpeta</string>
+
+    <!-- Platform configuration - Game files selection step -->
+    <string name="platform_configuration_game_files_selection_title">Archivos de juegos</string>
+    <string name="platform_configuration_game_files_selection_description">Selecciona tus juegos</string>
+    <string name="platform_configuration_game_files_selection_icon_game_file_content_description">Archivo de juego</string>
+    <string name="platform_configuration_game_files_selection_error_no_files_title">No hay juegos en estas carpetas</string>
+    <string name="platform_configuration_game_files_selection_error_no_files_description">Selecciona una carpeta que tenga archivos de estos tipos: %1$s.</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_title">Sin acceso a estas carpetas</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_description">El sistema negó el acceso a las siguientes carpetas. Asegúrate de que tu tarjeta SD esté insertada o vuelve un paso atrás e intenta agregar las carpetas de nuevo:\n\n%1$s</string>
+
+    <!-- Platform configuration - Game emulator matching step -->
+    <string name="platform_configuration_game_emulator_matching_title">Combinaciones de Juego + Emulador</string>
+    <string name="platform_configuration_game_emulator_matching_description">Selecciona los emuladores para iniciar tus juegos</string>
+
+    <!-- Platform configuration - Enable notifications -->
+    <string name="platform_configuration_enable_notifications_title">¿Activar notificaciones?</string>
+    <string name="platform_configuration_enable_notifications_description">Mira el progreso en una notificación mientras descargo las carátulas de tus juegos:</string>
+    <string name="platform_configuration_enable_notifications_option_yes">Sí, quiero ver el progreso</string>
+    <string name="platform_configuration_enable_notifications_option_no">No, tal vez después</string>
+
+    <!-- Platform configuration - summary -->
+    <plurals name="platform_configuration_summary_game_apps">
+        <item quantity="one">Un juego</item>
+        <item quantity="other">%d juegos</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_emulator_apps">
+        <item quantity="one">Un emulador</item>
+        <item quantity="other">%d emuladores</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_folders">
+        <item quantity="one">Una carpeta</item>
+        <item quantity="other">%d carpetas</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_game_files">
+        <item quantity="one">Un juego</item>
+        <item quantity="other">%d juegos</item>
+    </plurals>
+    <string name="platform_configuration_summary_amount_games_in_folders">%1$s en %2$s</string>
+    <plurals name="platform_configuration_summary_amount_of_games_in_folders_folders">
+        <item quantity="one">una carpeta</item>
+        <item quantity="other">%d carpetas</item>
+    </plurals>
+    <string name="platform_configuration_summary_steps_left">Paso %1$d de %2$d</string>
+
+    <!-- Item options - General -->
+    <string name="item_options_loading_title">Cargando opciones</string>
+    <string name="item_options_saving_title">@string/common_saving</string>
+
+    <!-- Item options - Key hints -->
+    <string name="item_options_key_hints_navigate">@string/common_navigate</string>
+    <string name="item_options_key_hints_back">@string/common_back</string>
+    <string name="item_options_key_hints_select">@string/common_select</string>
+
+    <!-- Item options - App -->
+    <string name="item_options_app_menu_option_launch">Abrir app</string>
+    <string name="item_options_app_menu_option_settings">Abrir ajustes de la app</string>
+    <string name="item_options_app_menu_option_uninstall">Desinstalar app</string>
+    <string name="item_options_app_menu_option_launch_display">Pantalla</string>
+    <string name="item_options_app_menu_option_launch_display_option_not_set">Predeterminado</string>
+    <string name="item_options_app_menu_error_launch_shortcut_title">No se pudo iniciar el acceso directo</string>
+    <string name="item_options_app_menu_error_launch_shortcut_message_app_not_found">@string/gallery_games_error_app_launch_failed_app_not_found</string>
+    <string name="item_options_app_menu_error_launch_shortcut_message_generic">@string/gallery_games_error_app_launch_failed_generic</string>
+    <string name="item_options_app_menu_error_launch_app_settings_title">No se pudieron abrir los ajustes</string>
+    <string name="item_options_app_menu_error_launch_app_settings_message_app_not_found">Falló al abrir los ajustes de la app. Asegúrate de que la app de Ajustes esté habilitada.</string>
+    <string name="item_options_app_menu_error_launch_app_settings_message_generic">Falló al abrir los ajustes de la app por una razón desconocida:\n%1$s</string>
+
+    <!-- Item options - Game file -->
+    <string name="item_options_game_file_menu_option_launch_game">Jugar</string>
+    <string name="item_options_game_file_menu_option_launch_emulator">Abrir emulador</string>
+    <string name="item_options_game_file_menu_option_scrape">Descargar info del juego</string>
+    <string name="item_options_game_file_menu_option_edit">Editar info del juego</string>
+    <string name="item_options_game_file_menu_option_hide">Ocultar juego</string>
+    <string name="item_options_game_file_menu_option_change_emulator">Cambiar emulador</string>
+    <string name="item_options_game_file_menu_option_open_scraper_website">Ver en %1$s</string>
+    <string name="item_options_game_file_warning_dialog_hide_title">¿Ocultar \"%1$s\"?</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">El juego no se mostrará más en tu colección. Puedes revertir esto cuando quieras en [Ajustes] > [Configuración de plataforma] > [Plataforma] > [Editar] seleccionando el juego de nuevo.</string>
+    <string name="item_options_game_file_warning_dialog_hide_confirm">Ocultar juego</string>
+    <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
+
+    <!-- Item options - Game app -->
+    <string name="item_options_game_app_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
+    <string name="item_options_game_app_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
+    <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
+    <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
+    <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+
+    <!-- Item options - Streaming game -->
+    <string name="item_options_streaming_game_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
+    <string name="item_options_streaming_game_menu_option_launch_streaming_app">Abrir app de streaming</string>
+    <string name="item_options_streaming_game_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
+    <string name="item_options_streaming_game_menu_option_unpin">Desanclar juego</string>
+    <string name="item_options_streaming_game_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_title">¿Desanclar \"%1$s\"?</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_text">El acceso directo del juego no se mostrará más en tu colección. Puedes revertir esto cuando quieras creando un acceso directo desde la app de streaming.</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_confirm">Desanclar juego</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_dismiss">@string/common_cancel</string>
+
+    <!-- Item options - Scrape -->
+    <string name="item_options_scrape_no_results">Sin resultados</string>
+    <string name="item_options_scrape_fetching_results_for">resultados para \"%1$s\"…</string>
+    <string name="item_options_scrape_error_no_internet_connection">Sin conexión a internet</string>
+    <string name="item_options_scrape_error_unknown">Error desconocido</string>
+
+    <!-- Item options - Edit -->
+    <string name="item_options_edit_section_cover_image">Carátula</string>
+    <string name="item_options_edit_section_cover_name">Nombre</string>
+    <string name="item_options_edit_section_cover_release_date">Fecha de lanzamiento</string>
+    <string name="item_options_edit_section_cover_release_date_key_hint_increment_decrement">Editar</string>
+    <string name="item_options_edit_exit_warning_dialog_title">¿Salir del editor de info del juego?</string>
+    <string name="item_options_edit_exit_warning_dialog_text">Se perderán todos los cambios que hiciste.</string>
+    <string name="item_options_edit_exit_warning_dialog_confirm">Salir y descartar cambios</string>
+    <string name="item_options_edit_exit_warning_dialog_dismiss">@string/common_cancel</string>
+
+
+    <!-- Settings - Key hints -->
+    <string name="settings_key_hints_navigate">@string/common_navigate</string>
+    <string name="settings_key_hints_back">@string/common_back</string>
+    <string name="settings_key_hints_select">@string/common_select</string>
+    <string name="settings_key_hints_move">Mover</string>
+    <string name="settings_key_hints_done">@string/common_done</string>
+
+    <!-- Settings - Main menu -->
+    <string name="settings_main_menu_title">Ajustes</string>
+    <string name="settings_main_menu_menu_option_android">Ajustes del dispositivo</string>
+    <string name="settings_main_menu_menu_option_platform">Configuración de plataforma</string>
+    <string name="settings_main_menu_menu_option_appearance">Apariencia y comportamiento</string>
+    <string name="settings_main_menu_menu_option_advanced">Configuración avanzada</string>
+    <string name="settings_main_menu_menu_option_more">Más</string>
+    <string name="settings_main_menu_menu_option_buy_license">Comprar licencia ilimitada</string>
+
+    <!-- Settings - Platforms -->
+    <string name="settings_platforms_title">Plataformas</string>
+    <string name="settings_platforms_cta_add">Agregar plataforma</string>
+    <string name="settings_platforms_reorder_title">Reordenar plataformas</string>
+    <string name="settings_platforms_reorder_cta_add">@string/common_done</string>
+    <string name="settings_platforms_content_description_move_up">Mover arriba</string>
+    <string name="settings_platforms_content_description_move_down">Mover abajo</string>
+
+    <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_detect_new_games">Detectar juegos nuevos</string>
+    <string name="settings_platform_options_menu_option_scrape_missing">Descargar carátulas e info faltante</string>
+    <string name="settings_platform_options_menu_option_edit">Editar</string>
+    <string name="settings_platform_options_menu_option_remove">Eliminar</string>
+    <string name="settings_platform_options_warning_dialog_remove_title">¿Eliminar plataforma \"%1$s\"?</string>
+    <string name="settings_platform_options_warning_dialog_remove_text">Se borrará la configuración. Tus juegos y apps no se tocarán.</string>
+    <string name="settings_platform_options_warning_dialog_remove_confirm">Eliminar plataforma</string>
+    <string name="settings_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform edit - Key hints -->
+    <string name="settings_platform_edit_key_hints_navigate">@string/common_navigate</string>
+    <string name="settings_platform_edit_key_hints_back">@string/common_back</string>
+    <string name="settings_platform_edit_key_hints_select">@string/common_select</string>
+    <string name="settings_platform_edit_key_hints_back_to_overview">Volver al resumen</string>
+    <string name="settings_platform_edit_key_hints_select_unselect">Seleccionar / Deseleccionar</string>
+    <string name="settings_platform_edit_key_hints_add_remove_folder">Agregar / Quitar carpeta</string>
+    <string name="settings_platform_edit_key_hints_open_emulator_selection">Abrir selección de emulador</string>
+    <string name="settings_platform_edit_key_hints_cancel">@string/common_cancel</string>
+
+    <!-- Settings - Platform edit -->
+    <string name="settings_platform_edit_loading_config">Cargando configuración</string>
+    <string name="settings_platform_edit_loading_prepare_reading_files">Preparando para leer los archivos</string>
+    <string name="settings_platform_edit_loading_reading_files">Leyendo archivos</string>
+    <string name="settings_platform_edit_loading_reading_more_files">Leyendo más archivos</string>
+    <string name="settings_platform_edit_loading_setting_up_menu">Armando la estructura del menú</string>
+    <string name="settings_platform_edit_loading_error_access_denied_title">Sin acceso a las carpetas de esta plataforma</string>
+    <string name="settings_platform_edit_loading_error_access_denied_description">El sistema negó el acceso a las siguientes carpetas. Asegúrate de que tu tarjeta SD esté insertada o vuelve atrás e intenta entrar al editor de nuevo:\n\n%1$s</string>
+    <string name="settings_platform_edit_title_saving">@string/common_saving</string>
+    <string name="settings_platform_edit_warning_dialog_exit_title">¿Salir del editor de plataforma?</string>
+    <string name="settings_platform_edit_warning_dialog_exit_text">Se perderán todos los cambios que hiciste.</string>
+    <string name="settings_platform_edit_warning_dialog_exit_confirm">Salir y descartar cambios</string>
+    <string name="settings_platform_edit_warning_dialog_exit_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_cta_save">@string/common_save</string>
+    <string name="settings_platform_edit_cta_save_information_no_game_apps">Selecciona al menos una app de juego para guardar la configuración</string>
+    <string name="settings_platform_edit_cta_save_information_no_emulator_apps">Selecciona al menos un emulador para guardar la configuración</string>
+    <string name="settings_platform_edit_cta_save_information_no_folder">Agrega al menos una carpeta para guardar la configuración</string>
+    <string name="settings_platform_edit_cta_save_information_no_game_files">Selecciona al menos un juego para guardar la configuración</string>
+
+    <!-- Settings - Appearance -->
+    <string name="settings_appearance_menu_title">@string/settings_main_menu_menu_option_appearance</string>
+    <string name="settings_appearance_menu_menu_option_general">General</string>
+    <string name="settings_appearance_menu_menu_option_landscape_layout">@string/settings_appearance_landscape_layout_menu_title</string>
+    <string name="settings_appearance_menu_menu_option_portrait_layout">@string/settings_appearance_portrait_layout_menu_title</string>
+
+    <!-- Settings - Appearance - General -->
+    <string name="settings_appearance_general_menu_title">@string/settings_appearance_menu_menu_option_general</string>
+    <string name="settings_appearance_general_setting_audio_feedback_title">Sonidos</string>
+    <string name="settings_appearance_general_setting_haptic_feedback_title">Vibración</string>
+    <string name="settings_appearance_general_setting_dark_mode_title">Modo oscuro</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_system">Seguir al sistema</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_dark">Oscuro</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_light">Claro</string>
+    <string name="settings_appearance_general_setting_adaptive_app_icons_title">Forma de íconos de apps</string>
+    <string name="settings_appearance_general_setting_background_style_title">Fondo y estilo</string>
+    <string name="settings_appearance_general_setting_default_launcher_title">Poner Papaya como launcher</string>
+    <string name="settings_appearance_general_setting_launch_display_title">Pantalla de inicio predeterminada</string>
+    <string name="settings_appearance_general_setting_launch_display_option_default">Misma pantalla (predeterminado)</string>
+    <string name="settings_appearance_general_setting_launch_display_option_other">Otra pantalla</string>
+    <string name="settings_appearance_general_setting_launch_display_option_ask">Preguntar siempre</string>
+
+    <!-- Settings - Appearance - Layout-->
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Carrusel</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Cuadrícula</string>
+
+    <!-- Settings - Appearance - Landscape layout-->
+    <string name="settings_appearance_landscape_layout_menu_title">Layout en modo horizontal</string>
+
+    <!-- Settings - Appearance - Portrait layout-->
+    <string name="settings_appearance_portrait_layout_menu_title">Layout en modo vertical</string>
+
+    <!-- Settings - Advanced -->
+    <string name="settings_advanced_title">Configuración avanzada</string>
+    <string name="settings_advanced_menu_option_custom_platform_config">Plataformas personalizadas</string>
+    <string name="settings_advanced_menu_option_custom_emulator_apps">Emuladores personalizados</string>
+
+    <!-- Settings - Custom emulator apps -->
+    <string name="settings_custom_emulator_apps_title">Configuración de emuladores personalizados</string>
+    <string name="settings_custom_emulator_apps_cta_add">Agregar emulador</string>
+
+    <!-- Settings - Custom emulator app options -->
+    <string name="settings_custom_emulator_app_options_menu_option_edit">Editar</string>
+    <string name="settings_custom_emulator_app_options_menu_option_remove">Eliminar</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_title">¿Eliminar \"%1$s\"?</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_text">La configuración del emulador se borrará y no se puede recuperar.</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_confirm">Eliminar configuración de emulador</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_title">¡No se puede eliminar!</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_text">El emulador personalizado todavía se está usando. Selecciona otro emulador para estos juegos:\n%1$s</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_confirm">@string/common_okay</string>
+
+    <!-- Settings - Custom emulator app creator -->
+    <string name="settings_custom_emulator_app_title">Nuevo emulador personalizado</string>
+    <string name="settings_custom_emulator_app_section_metadata_title">Metadatos</string>
+    <string name="settings_custom_emulator_app_section_metadata_label_name">Nombre</string>
+    <string name="settings_custom_emulator_app_section_metadata_hint_name">Por ejemplo \'Retroarch - PPSSPP\'</string>
+    <string name="settings_custom_emulator_app_section_platform_title">Plataforma</string>
+    <string name="settings_custom_emulator_app_section_platform_label_config">Configuración</string>
+    <string name="settings_custom_emulator_app_section_platform_hint_config">Tiene info sobre los tipos de archivos soportados, por ejemplo. Puedes crear tu propia plataforma personalizada en [Ajustes] > [Avanzado] > [Plataformas personalizadas] > [Crear].</string>
+    <string name="settings_custom_emulator_app_section_emulator_title">Emulador</string>
+    <string name="settings_custom_emulator_app_section_emulator_label_app">App</string>
+    <string name="settings_custom_emulator_app_section_emulator_label_core">Core</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_core">Retroarch necesita la ruta al core del emulador: Por ejemplo \'/data/data/com.retroarch/cores/ppsspp_libretro_android.so\'.</string>
+    <string name="settings_custom_emulator_app_section_emulator_option_activity_unspecified">Sin especificar</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_activity">La mayoría de las apps no necesitan una Activity explícita, así que puedes dejarla en [Sin especificar]. Sin embargo, algunas apps necesitan que se apunte a una Activity explícita: Busca nombres como \'EmulationActivity\'.</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_title">Tipo de parámetro</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_option_file">Archivo de juego</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_option_id">ID del juego</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Por lo general los emuladores quieren que les pases directamente un \'Archivo de juego\'. Para algunas plataformas, sin embargo, no hay un solo archivo para pasar. En esos casos, los emuladores suelen referenciar a un juego a través de un \'ID del juego\' (ej. Vita3K, ScummVM).</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_title">Manejo del ID del juego</string>
+    <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">La plataforma que elegiste no tiene una especificación de tipo de archivo de ID. Puedes crear tu propia plataforma personalizada y agregar un tipo de archivo con especificación de cómo obtener el ID del juego. Ve a [Ajustes] > [Avanzado] > [Plataformas personalizadas] > [Crear] para crearla.\nAún puedes seguir configurando esto acá y guardarlo. Incluso puedes probar iniciar un juego, pero probablemente falle porque no sé de dónde sacar el ID del juego.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">La acción de intent estándar para abrir un documento es \'android.intent.action.VIEW\' que es la que usa la mayoría de las apps de emulación. En casos raros se usa una acción personalizada: Por ejemplo, para emuladores basados en Yuzu, es \'android.nfc.action.TECH_DISCOVERED\'.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_label_file_parameter">Parámetro de ID</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_option_file_parameter_data_parameter">Pasar ID a través del parámetro DATA</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_file_parameter">La forma estándar de pasar un ID a otra app es a través del parámetro DATA. Algunos emuladores necesitan que se envíe el archivo a través de un parámetro personalizado.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_label_custom">Nombre del parámetro de ID personalizado</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_type">Por lo general, el ID se pasa como un tipo de Texto (\'String\'). Si el ID es un número, es posible que se pase explícitamente como un tipo Número (\"Integer\').</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_title">Manejo del archivo de juego</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_intent_action">La acción de intent estándar para abrir un archivo es \'android.intent.action.VIEW\' que es la que usa la mayoría de las apps de emulación. En casos raros se usa una acción personalizada: Por ejemplo, para emuladores basados en Yuzu, es \'android.nfc.action.TECH_DISCOVERED\'.</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_label_file_parameter">Parámetro de archivo</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_option_file_parameter_data_parameter">Pasar archivo a través del parámetro DATA</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_file_parameter">La forma estándar de pasar un archivo a otra app es a través del parámetro DATA. Algunos emuladores necesitan que se envíe el archivo a través de un parámetro personalizado.</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_label_custom">Parámetro de archivo personalizado</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_option_custom_absolute_url">URL absoluta</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_custom">Las apps modernas por lo general se refieren a un archivo a través de un \'URI de contenido\'. Las apps más viejas pueden usar una \'URL absoluta\': Una pista puede ser que usan el permiso \'READ_EXTERNAL_STORAGE\'.</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_button_add">Agregar parámetro</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_key">clave</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_value_string">Valor de texto</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_value_int">Valor numérico</string>
+    <string name="settings_custom_emulator_app_cta_save">@string/common_save</string>
+    <string name="settings_custom_emulator_app_box_try_it_title">¡Probalo!</string>
+    <string name="settings_custom_emulator_app_box_try_it_button_select_test_file">Elegir archivo de prueba</string>
+    <string name="settings_custom_emulator_app_box_try_it_cta_launch">Iniciar</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_success">✅ ¡App iniciada con éxito!</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_empty">Después de hacer clic en \'Iniciar\' vas a ver un resultado acá.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_file_type">❌ ¡No se encontró el ID del juego! La configuración dice que hay que usar un ID de juego para iniciar el emulador. Sin embargo, no puedo obtener un ID de juego del tipo de archivo \'%1$s\' definido en la plataforma elegida. Definí en la configuración de plataforma cómo puedo leer el ID en el tipo de archivo dado.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_folder">❌ ¡No se encontró el ID del juego! La configuración dice que hay que usar un ID de juego para iniciar el emulador. El tipo \'%1$s\' especifica leer el ID del juego del nombre de la carpeta. Sin embargo, parece que el archivo de prueba no está dentro de una carpeta.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_content">❌ ¡No se encontró el ID del juego! La configuración dice que hay que usar un ID de juego para iniciar el emulador. El tipo \'%1$s\' especifica leer el ID del juego del contenido del archivo. Sin embargo, parece que el archivo de prueba no tiene el ID en un formato legible: El ID debería ser el único contenido del archivo.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ ¡No se encontró el ID del juego! La configuración dice que hay que usar un ID de juego para iniciar el emulador. El tipo \'%1$s\' especifica leer el ID del juego del contenido del archivo. Sin embargo, no pude acceder al contenido del archivo.</string>
+
+    <!-- Settings - Custom platforms -->
+    <string name="settings_custom_platforms_title">Plataformas personalizadas</string>
+    <string name="settings_custom_platforms_cta_add">Agregar plataforma</string>
+
+    <!-- Settings - Custom emulator app options -->
+    <string name="settings_custom_platform_options_menu_option_edit">Editar</string>
+    <string name="settings_custom_platform_options_menu_option_remove">Eliminar</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_title">¿Eliminar \"%1$s\"?</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_text">La plataforma personalizada se borrará y no se puede recuperar.</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_confirm">Eliminar configuración de plataforma</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_title">¡No se puede eliminar!</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text">La plataforma personalizada todavía se está usando. Elimina primero los usos:\n</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text_emulator_apps">Configuraciones de emuladores: %1$s\n</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text_platforms">Configuraciones de plataformas: %1$s</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_confirm">@string/common_okay</string>
+
+    <!-- Settings - Custom platform creator -->
+    <string name="settings_custom_platform_creator_title">Nueva plataforma personalizada</string>
+    <string name="settings_custom_platform_creator_section_platform_abbreviation_title">Abreviación de la plataforma</string>
+    <string name="settings_custom_platform_creator_section_platform_name_title">Nombre de la plataforma</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_title">Tipos de archivo de juego</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_button_add">Agregar tipo de archivo</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_file">Archivo de juego</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_file">Archivo de ID del juego</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_where">¿Dónde está definido el ID?</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_content">Dentro del archivo</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_folder">Nombre de la carpeta padre</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_cancel">@string/common_cancel</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_add">Agregar</string>
+    <string name="settings_custom_platform_creator_cta_save">@string/common_save</string>
+    <string name="settings_custom_platform_creator_error_dialog_title">¡No se puede eliminar!</string>
+    <string name="settings_custom_platform_creator_error_dialog_text">Esta plataforma personalizada ya está en uso, así que no puedes eliminar tipos de archivo agregados antes.\nSolo puedes agregar nuevos tipos de archivo o eliminar las plataformas que usan esta configuración: %1$s</string>
+    <string name="settings_custom_platform_creator_error_dialog_confirm">@string/common_okay</string>
+
+    <!-- Settings - More -->
+    <string name="settings_more_menu_title">@string/settings_main_menu_menu_option_more</string>
+    <string name="settings_more_menu_option_roadmap">Hoja de ruta</string>
+    <string name="settings_more_menu_option_privacy_policy">Política de privacidad</string>
+    <string name="settings_more_menu_option_licenses">Licencias</string>
+    <string name="settings_more_menu_option_about">Acerca de</string>
+
+    <!-- Settings - Privacy Policy -->
+    <string name="settings_privacy_policy_title">@string/settings_more_menu_option_privacy_policy</string>
+    <string name="settings_privacy_policy_section_processed_data_title">Datos personales procesados</string>
+    <string name="settings_privacy_policy_section_processed_data_text">Papaya procesa información sobre las apps instaladas en tu dispositivo. Además, cuando le das explícitamente acceso a ciertas carpetas de tu dispositivo, también procesará metadatos de los archivos ubicados dentro de esa carpeta (nombre del archivo, nombre de la carpeta).</string>
+    <string name="settings_privacy_policy_section_data_usage_title">Cómo se usan tus datos</string>
+    <string name="settings_privacy_policy_section_data_usage_text">Papaya usa la información sobre las apps instaladas en tu dispositivo únicamente para mostrar las listas de apps en la pantalla de inicio y para guiarte cuando configuras accesos directos a juegos dentro de estas apps (Preseleccionando apps instaladas). Estos datos no se comparten con terceros y solo se almacenan localmente en tu dispositivo.&lt;br&gt;&lt;br&gt;Los metadatos mencionados de archivos en ciertas carpetas a las que le das acceso explícito a Papaya, se usan para enriquecer los accesos directos a juegos en otras apps: Los nombres de archivo o nombres de carpeta pueden enviarse a &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt; y/o &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt; a cambio de más detalles sobre el acceso directo del juego. Estos detalles incluyen carátulas, fechas de lanzamiento, géneros, etc. Estos datos adicionales se usan nuevamente solo para mostrarlos en tu pantalla de inicio. Nota que estos metadatos de archivo pueden compartirse solo con uno o ambos de estos dos servicios mencionados arriba.</string>
+    <string name="settings_privacy_policy_section_managing_data_title">Administrando tus datos personales</string>
+    <string name="settings_privacy_policy_section_managing_data_text">Papaya guarda tus datos personales (Apps instaladas, metadatos de archivo) en tu dispositivo. Puedes borrar todos tus datos personales a través del menú de ajustes de app de Android: Mantén presionado el ícono de la app Papaya, selecciona "Información de la app", haz clic en "almacenamiento y caché" y finalmente "borrar almacenamiento". Nota: Desinstalar la app puede que no necesariamente elimine tus datos personales si una opción de copia de seguridad está habilitada.</string>
+    <string name="settings_privacy_policy_section_contact_title">Contacto</string>
+    <string name="settings_privacy_policy_section_contact_text">Si tienes más preguntas sobre tus datos personales y su uso, puedes mandarme un email: &lt;a href="mailto:mail@sebschaef.com"&gt;mail@sebschaef.com&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Persona responsable: Sebastian Schäf</string>
+
+    <!-- Settings - About -->
+    <string name="settings_about_title">@string/settings_more_menu_option_about</string>
+    <string name="settings_about_section_attribution_title">Atribuciones</string>
+    <string name="settings_about_section_attribution_subtitle_scrapers">Metadatos del juego</string>
+    <string name="settings_about_section_attribution_igdb">❤️ &lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: Enriquece tu colección de juegos con carátulas hermosas y más detalles</string>
+    <string name="settings_about_section_attribution_tgdb">❤️ &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Enriqueciendo tu colección de juegos con carátulas hermosas y más detalles</string>
+    <string name="settings_about_section_attribution_subtitle_translations">Traducciones</string>
+    <string name="settings_about_section_attribution_pt_br">🇧🇷 Portugués brasileño por &lt;b&gt;Ariel&lt;/b&gt;. ¡Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_subtitle_sounds_icons">Sonidos e íconos</string>
+    <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Sonidos de navegación clicky clacky</string>
+    <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Le da a tus juegos una sensación retro y a los diálogos un sonido de advertencia significativo</string>
+    <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Por el ícono genial de Discord de abajo</string>
+    <string name="settings_about_section_community_title">Comunidad</string>
+    <string name="settings_about_section_community_text">Si quieres contribuir y ayudar a dar forma al futuro de Papaya, únete a la comunidad. ¡Por supuesto que también eres muy bienvenido si solo quieres ver las últimas novedades o encontraste algún bug!</string>
+    <string name="settings_about_section_community_option_discord">Discord de Papaya</string>
+    <string name="settings_about_section_community_option_github">GitHub de Papaya</string>
+    <string name="settings_about_section_community_option_email">Email</string>
+    <string name="settings_about_section_built_by_title">Hecho por</string>
+    <string name="settings_about_section_built_by_text">Sebastian Schäf en Berlín</string>
+    <string name="settings_about_section_built_by_thank_you">¡Gracias por usar Papaya! 🧡</string>
+
+    <!-- Buy license -->
+    <string name="buy_license_trial_title">Prueba</string>
+    <string name="buy_license_trial_progress_days_left">días restantes</string>
+    <string name="buy_license_trial_progress_trial_ended">Prueba\nfinalizada</string>
+    <string name="buy_license_purchase_payment_pending">Pago pendiente</string>
+    <string name="buy_license_purchase_payment_successful">¡Gracias por el apoyo! ❤️ ¡Disfruta Papaya!</string>
+    <string name="buy_license_benefit_title">Licencia ilimitada:</string>
+    <string name="buy_license_benefit_no_limit">Eliminar el límite de prueba de %1$d días ✅</string>
+    <string name="buy_license_benefit_no_ads">Garantía de cero publicidad ✅</string>
+    <string name="buy_license_benefit_unlimited_devices">Dispositivos ilimitados ✅</string>
+    <string name="buy_license_benefit_support_development">Apoyar el desarrollo ✅</string>
+    <string name="buy_license_cta_buy_license">Comprar la licencia ilimitada</string>
+    <string name="buy_license_cancel_back">Tal vez después</string>
+    <string name="buy_license_cancel_quit">Cerrar Papaya</string>
+    <string name="buy_license_go_back">Volver</string>
+    <string name="buy_license_error_generic_title">No se pudo iniciar el checkout</string>
+    <string name="buy_license_error_generic_message">Asegúrate de que tu conexión a internet esté funcionando y que Google Play Services esté habilitado.</string>
+
+    <!-- Shared UI -->
+    <string name="shared_ui_loading_screen_label_default">Cargando</string>
+    <string name="shared_ui_toggleablebox_contentdescription_checked">Seleccionado</string>
+    <string name="shared_ui_toggleablebox_contentdescription_unchecked">No seleccionado</string>
+    <string name="snackbar_platform_scraper_enqueued">En cola: Descargando info de tus juegos de \"%1$s\".</string>
+    <string name="snackbar_platform_scraper_running">Ejecutándose en segundo plano: Descargando info de tus juegos de \"%1$s\".</string>
+    <string name="snackbar_platform_scraper_succeeded">Descarga de info de tus juegos de \"%1$s\" completada.</string>
+    <string name="snackbar_platform_scraper_failure">Fallo al descargar info de tus juegos de \"%1$s\".</string>
+    <string name="snackbar_platform_detect_new_games_enqueued">En cola: Detectando nuevos juegos de \"%1$s\".</string>
+    <string name="snackbar_platform_detect_new_games_running">Ejecutándose en segundo plano: Detectando nuevos juegos de \"%1$s\".</string>
+    <string name="snackbar_platform_detect_new_games_succeeded">Detección de nuevos juegos de \"%1$s\" completada.</string>
+    <string name="snackbar_platform_detect_new_games_failure">Fallo al detectar nuevos juegos de \"%1$s\".</string>
+    <string name="snackbar_platform_scrape_streaming_game_enqueued">En cola: Descargando info del juego de streaming anclado.</string>
+    <string name="snackbar_platform_scrape_streaming_game_running">Ejecutándose en segundo plano: Descargando info del juego de streaming anclado.</string>
+    <string name="snackbar_platform_scrape_streaming_game_succeeded">Descarga de info del juego de streaming anclado completada.</string>
+    <string name="snackbar_platform_scrape_streaming_game_failure">Fallo al descargar info del juego de streaming anclado.</string>
+    <string name="shared_ui_display_selection_this_display">Esta pantalla</string>
+    <string name="shared_ui_display_selection_external_display">Externa</string>
+    <string name="shared_ui_display_selection_launch_on">Iniciar en</string>
+
+    <!-- Background work -->
+    <string name="background_work_action_cancel">@string/common_cancel</string>
+    <string name="background_work_notification_channel_name">Progreso de descarga en segundo plano</string>
+    <string name="background_work_notification_channel_description">Información detallada sobre el progreso de descarga. Por ejemplo: Cantidad de juegos restantes.</string>
+    <string name="background_work_platform_scraper_base_title">Descargando info de tus juegos</string>
+    <string name="background_work_platform_scraper_generic_title">Descargando info de tus %1$d juegos de \"%2$s\"</string>
+    <string name="background_work_platform_scraper_progress_title">Descargando info de juegos (%1$d/%2$d): %3$s</string>
+    <string name="background_work_detect_new_games_generic_title">Buscando nuevos archivos de juegos</string>
+    <string name="background_work_detect_new_games_scraper_progress_title">@string/background_work_platform_scraper_progress_title</string>
+    <string name="background_work_streaming_game_scraper_title">Descargando carátula e info del juego</string>
+
+</resources>
